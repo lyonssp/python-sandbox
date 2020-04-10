@@ -1,1 +1,3 @@
-print("bring me a lime")
+cheeses = ['brie', 'swiss', 'cheddar']
+for cheese in cheeses:
+    print (cheese)
