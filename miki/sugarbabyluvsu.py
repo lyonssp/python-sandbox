@@ -41,3 +41,36 @@ hognames.append('groot')
 print(hognames)
 hognames.sort()
 print(hognames)
+careers = ['garbage human', 'chronically unemployed alcoholic', 'invalid', 'human loofa']
+print(careers)
+print(careers.index('invalid'))
+print('invalid' in careers)
+careers.append('labotomist')
+print(careers)
+careers.insert(0,'boy genius')
+print(careers)
+for career in careers:
+    print("When I grow up I wanna be a " + career)
+demon_lovers = []
+print(demon_lovers)
+demon_lovers.append('Jafar')
+demon_lovers.append('Dracula')
+demon_lovers.append('The Beast')
+demon_lovers.append('David Bowie from The Labrynth')
+demon1 = demon_lovers[0]
+print(demon1)
+demon_last = demon_lovers[-1]
+print(demon_last)
+print(demon_lovers)
+for alpha_demon in sorted(demon_lovers):
+    print(alpha_demon)
+for beta_demon in reversed(sorted(demon_lovers)):
+    print(beta_demon)
+for non_demon in demon_lovers:
+    print (non_demon)
+for reverse_demon in reversed(demon_lovers):
+    print(reverse_demon)
+demon_lovers.reverse()
+print(demon_lovers)
+print(datetime.datetime.now())
+
