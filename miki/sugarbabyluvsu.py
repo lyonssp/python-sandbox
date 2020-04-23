@@ -72,5 +72,24 @@ for reverse_demon in reversed(demon_lovers):
     print(reverse_demon)
 demon_lovers.reverse()
 print(demon_lovers)
-print(datetime.datetime.now())
 
+breads = ['ciabatta', 'foccacia', 'challah']
+
+def bread_cost(y):
+    if y is 'ciabatta':
+        return  4
+    if y is 'foccacia':
+        return  2
+    if y is 'challah':
+        return  7
+
+
+def total(z):
+    total = 0
+    
+    for y in z:
+        total = (total + bread_cost(y))
+        
+    return total
+    
+print(total(breads))
